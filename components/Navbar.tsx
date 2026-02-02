@@ -22,14 +22,14 @@ const Navbar = () => {
                 }`}>
                 {/* Unified Glass Pill Container - Changes on scroll */}
                 <div className={`flex items-center justify-between transition-all duration-500 rounded-full px-6 py-3 ${scrolled
-                        ? 'bg-[#000000]/80 backdrop-blur-xl border border-white/5 shadow-2xl'
-                        : 'bg-white/10 backdrop-blur-md border border-white/10'
+                    ? 'bg-[#000000]/80 backdrop-blur-xl border border-white/5 shadow-2xl'
+                    : 'bg-white/10 backdrop-blur-md border border-white/10'
                     }`}>
                     {/* Logo */}
                     <div className="flex-shrink-0 flex items-center gap-2">
                         {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img src="/logo.png" alt="Finovation Logo" className="h-10 w-auto hover:drop-shadow-[0_0_15px_rgba(6,182,212,0.5)] transition-all duration-300" />
-                        <Link href="/" className="font-bold text-xl tracking-tighter text-white hidden sm:block italic">
+                        <Link href="/" className="font-bold text-lg sm:text-xl tracking-tighter text-white italic">
                             Finovation<span className="text-cyan-500">.</span>
                         </Link>
                     </div>
