@@ -22,7 +22,7 @@ export default function Home() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/logo.png" alt="Finovation Logo" className="w-24 h-24 relative z-10 animate-pulse-glow" />
         </div>
-        <h2 className="text-2xl font-bold text-white tracking-widest mb-4">FINOVATION</h2>
+        <h2 className="text-2xl font-bold text-white tracking-widest mb-4 italic">FINOVATION</h2>
         <div className="w-64 h-1 bg-gray-800 rounded-full overflow-hidden">
           <div className="loader-bar"></div>
         </div>

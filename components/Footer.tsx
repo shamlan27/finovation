@@ -9,7 +9,7 @@ const Footer = () => {
                         <div className="flex items-center gap-2 mb-4">
                             {/* eslint-disable-next-line @next/next/no-img-element */}
                             <img src="/logo.png" alt="Finovation Logo" className="w-10 h-10" />
-                            <h3 className="text-2xl font-bold text-white">Finovation<span className="text-cyan-500">.</span></h3>
+                            <h3 className="text-2xl font-bold text-white italic">Finovation<span className="text-cyan-500">.</span></h3>
                         </div>
                         <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
                             Empowering Fintech businesses with cutting-edge software solutions and digital transformation services.
